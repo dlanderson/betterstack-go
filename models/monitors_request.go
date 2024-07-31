@@ -1,5 +1,10 @@
 package models
 
+import (
+	"net/url"
+	"strconv"
+)
+
 // ListMonitorsQuery represents the query parameters to
 // make a request for a list of monitors
 type ListMonitorsQuery struct {
@@ -9,7 +14,7 @@ type ListMonitorsQuery struct {
 }
 
 func (q ListMonitorsQuery) ToUrlString() string {
-	return "url=" + q.URL + "&pronounceable_name=" + q.PronounceableName + "&per_page=" + string(q.PerPage)
+	return "url=" + url.QueryEscape(q.URL) + "&pronounceable_name=" + url.QueryEscape(q.PronounceableName) + "&per_page=" + strconv.Itoa(q.PerPage)
 }
 
 // MonitorAvailabilityQuery represents a query for
