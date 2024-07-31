@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/sudodeo/betterstack-go/sdk/logs"
+	"github.com/dlanderson/betterstack-go/sdk/logs"
 )
 
 var bs *logs.Betterstack
