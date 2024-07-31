@@ -9,7 +9,7 @@ type ListMonitorsQuery struct {
 }
 
 func (q ListMonitorsQuery) ToUrlString() string {
-	return "url=" + q.URL + "&pronounceable_name=" + q.PronounceableName() + "&per_page=" + string(q.PerPage)
+	return "url=" + q.URL + "&pronounceable_name=" + q.PronounceableName + "&per_page=" + string(q.PerPage)
 }
 
 // MonitorAvailabilityQuery represents a query for

@@ -10,7 +10,7 @@ import (
 
 // ListMonitors returns list of all your monitors
 func (bs *Betterstack) ListMonitors(queryParams models.ListMonitorsQuery) (*models.Monitors, error) {
-	req, err := http.NewRequest(http.MethodGet, "/api/v2/monitors?"+queryParams.ToUrlString, nil)
+	req, err := http.NewRequest(http.MethodGet, "/api/v2/monitors?"+queryParams.ToUrlString(), nil)
 	if err != nil {
 		return nil, err
 	}
