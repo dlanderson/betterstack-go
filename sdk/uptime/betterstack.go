@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/joho/godotenv"
 	"github.com/dlanderson/betterstack-go/sdk"
+	"github.com/joho/godotenv"
 )
 
 // Betterstack represents the client for interacting with the Betterstack API.
