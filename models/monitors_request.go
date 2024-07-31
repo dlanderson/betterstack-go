@@ -8,6 +8,10 @@ type ListMonitorsQuery struct {
 	PerPage           int
 }
 
+func (q ListMonitorsQuery) ToUrlString() string {
+	return "url=" + q.URL + "&pronounceable_name=" + q.PronounceableName + "&per_page=" + string(q.PerPage)
+}
+
 // MonitorAvailabilityQuery represents a query for
 // monitoring availability within a specified time range.
 type MonitorAvailabilityQuery struct {
