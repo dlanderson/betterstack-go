@@ -5,7 +5,7 @@ package uptime_test
 
 // 	"github.com/stretchr/testify/assert"
 
-// 	"github.com/sudodeo/betterstack-go/models"
+// 	"github.com/dlanderson/betterstack-go/models"
 // )
 
 // ! I cannot test this feature because I am using a free account and I can't get the desired responses

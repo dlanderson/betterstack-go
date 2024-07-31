@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/sudodeo/betterstack-go/sdk/uptime"
+	"github.com/dlanderson/betterstack-go/sdk/uptime"
 )
 
 var bs *uptime.Betterstack

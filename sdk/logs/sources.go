@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/sudodeo/betterstack-go/models"
+	"github.com/dlanderson/betterstack-go/models"
 )
 
 /*

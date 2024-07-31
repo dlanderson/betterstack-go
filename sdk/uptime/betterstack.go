@@ -11,7 +11,7 @@ import (
 	"runtime"
 
 	"github.com/joho/godotenv"
-	"github.com/sudodeo/betterstack-go/sdk"
+	"github.com/dlanderson/betterstack-go/sdk"
 )
 
 // Betterstack represents the client for interacting with the Betterstack API.

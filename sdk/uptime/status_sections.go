@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/sudodeo/betterstack-go/models"
+	"github.com/dlanderson/betterstack-go/models"
 )
 
 // ListStatusPageSections returns a list of the sections of your status page.

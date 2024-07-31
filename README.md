@@ -5,7 +5,7 @@ Golang SDK client for betterstack.com APIs.
 ## Installation
 
 ```bash
-go get -u github.com/sudodeo/betterstack-go
+go get -u github.com/dlanderson/betterstack-go/sdk
 ```
 
 ## Environment Variables
@@ -64,7 +64,8 @@ To obtain your logs API token, view instructions from [BetterStack](https://bett
 package main
 
 import (
-    betterstack "github.com/sudodeo/betterstack-go"
+    "github.com/dlanderson/betterstack-go/sdk"
+    betterstack "github.com/dlanderson/betterstack-go/sdk/uptime" // for uptime API
 )
 
 func main(){
@@ -84,4 +85,4 @@ func main(){
 
 ## Author
 
-- [@sudodeo](https://www.github.com/sudodeo)
+- [@sudodeo](https://www.github.com/dlanderson)

@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/sudodeo/betterstack-go/models"
+	"github.com/dlanderson/betterstack-go/models"
 )
 
 // ListIncidents returns a list of all incidents with the option to filter incidents by monitor.
