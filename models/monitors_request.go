@@ -3,9 +3,9 @@ package models
 // ListMonitorsQuery represents the query parameters to
 // make a request for a list of monitors
 type ListMonitorsQuery struct {
-	URL              string
-	PronounceablName string
-	PerPage          int
+	URL               string
+	PronounceableName string
+	PerPage           int
 }
 
 // MonitorAvailabilityQuery represents a query for
@@ -21,7 +21,7 @@ type MonitorAvailabilityQuery struct {
 type MonitorReqBody struct {
 	URL                 string          `json:"url"`                             // Required
 	MonitorType         string          `json:"monitor_type,omitempty"`          // defaults to `status` if empty. access valid values with MonitorTypeList
-	PronounceablName    string          `json:"pronounceabl_name,omitempty"`     // name of monitor
+	PronounceableName   string          `json:"ronounceable_name,omitempty"`     // name of monitor
 	Email               bool            `json:"email,omitempty"`                 // Send email alerts
 	SMS                 bool            `json:"sms,omitempty"`                   // Send sms alerts
 	Call                bool            `json:"call,omitempty"`                  // Phone call alerts
